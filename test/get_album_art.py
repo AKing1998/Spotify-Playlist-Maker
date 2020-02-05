@@ -95,7 +95,7 @@ while True:
         while True:
             songSelection = input("Enter a song number to the see thae album art associated with it or X to exit: ")
 
-            if songSelection == "x" or "X":
+            if songSelection == "x" or songSelection == "X":
                 break
             webbrowser.open(trackART[int(songSelection)])
 

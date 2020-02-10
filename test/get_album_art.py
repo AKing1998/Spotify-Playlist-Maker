@@ -7,9 +7,24 @@ import webbrowser
 import spotipy.util as util
 from json.decoder import JSONDecoder
 
+
+'''
+
+export SPOTIPY_CLIENT_ID='c6de447f8b8944e1bbb131023bde8b95'
+export SPOTIPY_CLIENT_SECRET='e722e3b1287a4e48a865fbc8cd3d584b'
+export SPOTIPY_REDIRECT_URI='https://www.google.com/'
+
+'''
+
+
+
+
 #Get the username
 
 username = sys.argv[1]
+
+print(username)
+
 
 # USER ID : 21mzu4nngumfd6423om3g3osa?si=FNiG1MIURgmhS6wbDB1gfw
 
